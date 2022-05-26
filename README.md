@@ -1,6 +1,4 @@
-<!-- This is an initialization in github - this is not needed for the website -->
-
-
+<!-- This is to initialize the website in github, this is not needed when one downloaded and use the html file. -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,9 +31,11 @@
             <h1 id="title">
                 Home
             </h1><br>
+            
             <p id="description">
                 Jose Maria College - Information System
             </p><br>
+            <div class="mem1"><h1><img src="https://scontent.fdvo4-1.fna.fbcdn.net/v/t1.15752-9/282305174_1027762361188615_6638024664251728585_n.jpg?stp=dst-jpg_s2048x2048&_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_ohc=g89MXmOZArIAX97rYAw&_nc_ht=scontent.fdvo4-1.fna&oh=03_AVKo4z0LiNmnXUlos4RrJ6_FJLNzBmpRYrHuReYLijPxFw&oe=62B60E3B" width="40%" height="250" alt="Ren"></h1>
             <h1>Face-to-Face Information Data Collection</h1><br>
             <h2 id="temp1">Please Follow the instructions to portray a much more accurate data collection.</h2>
             <h2 id="temp1">Go to any of the data collection methods within the top left corner. </h2>
@@ -44,5 +44,6 @@
             <h2 id="temp1">Thank you for visiting our site. </h2>
         </header>
     </div>
+</div>
 </body>
 </html>
