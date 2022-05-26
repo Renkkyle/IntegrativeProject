@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link rel="stylesheet" href="form.css"> 
+    <title>F2F Survey Form</title>
+</head>
+<body>
+    <!-- test -->
+    <table cellpadding="0" style="width:100%" height="50">
+        <tr> 
+           <td>
+              <ul id="navlist">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gform.html">Google form</a></li>
+                <li><a href="colab.html">Colab</a></li>
+                <li><a href="webscrape.html">Webscrape</a></li>
+                <li><a href="analytics.html">Analytics</a></li>
+                <li><a href="about.html">About us</a></li>
+              </ul>
+           </td>
+       </tr>
+     </table>
+    <!-- test -->
+    <div class="container ">
+        <header class="header">
+            <h1 id="title">
+                Face to Face Survey Form
+            </h1>
+            <p id="description">
+                Thank you for taking the time to help us to answer the questions
+            </p>
+        </header>
+        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe3sPepvTDQD6XMxeHuFBcPaFgckpgEvBO_Tcf0hb0ZqV90ag/formResponse" id="survey-form">
+
+            
+
+            <!-- Type Email section -->
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="entry.1521493566" id="email" class="formControl" placeholder="Enter your Email" required>
+            </div>
+            <!-- end of Email section -->
+
+            <!-- Name section -->
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="entry.1610437831" id="name" class="formControl" placeholder="Enter your name" required>
+            </div>
+            <!-- end of text section -->
+
+            <!-- Student ID section -->
+            <div class="form-group">
+                <label for="studntID">Student ID</label>
+                <input type="number" name="entry.828436015" id="studntID" class="formControl" placeholder="Enter your Student ID" required>
+            </div>
+            <!-- end of text section -->
+
+            <!-- Course section -->
+            <div class="form-group">
+                <label for="course">Course</label>
+                <input type="text" name="entry.21183418" id="course" class="formControl" placeholder="Enter your Course" required>
+            </div>
+            <!-- end of text section -->
+
+            <!-- Type Age section -->
+            <div class="form-group">
+                <label for="age">Age</label>
+                <input type="number" name="entry.573982668" id="age" class="formControl" placeholder="Enter your Age" required>
+            </div>
+            <!-- end of Number section -->
+
+            <!-- Type Number section -->
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="number" name="entry.699449960" id="phone" class="formControl" placeholder="Enter your phone number" required>
+            </div>
+            <!-- end of Number section -->
+
+            <!-- CITY section -->
+            <div class="form-group">
+                <label for="city">Current city you lived in</label>
+                <input type="text" name="entry.687272801" id="city" class="formControl" placeholder="Enter your CITY" required>
+            </div>
+            <!-- end of text section -->
+
+            
+
+            <!-- Gender button section -->
+            <div class="form-group">
+                <label for="gender">Gender (Male, Female)</label>
+                <input type="text" name="entry.978823229" id="gender" class="formControl" placeholder="Enter your Gender" required>
+            </div>
+            <!-- end of gender button -->
+
+            <!-- Year button section -->
+            <div class="form-group">
+                <label for="year">Year level  (First, Second, Third, Fourrth, Fifth)</label>
+                <input type="text" name="entry.1518979431" id="year" class="formControl" placeholder="Enter your Year Level" required>
+            </div>
+
+            <!-- end of Year button -->
+            <!-- Vaccination button section -->
+
+            <div class="form-group">
+                <label for="vacx">Vaccinated? (Yes, No)</label>
+                <input type="text" name="entry.410838558" onkeydown="return /[a-z, ]/i.test(event.key)"
+                onblur="if (this.value == '') {this.value = '';}"
+                onfocus="if (this.value == '') {this.value = '';}" style="text-transform:uppercase" id="vacx" class="formControl" placeholder="Enter Yes or No" required>
+            </div>
+            
+            <!-- end of vaccination button -->
+            <!-- F2F Question section -->
+            <div class="form-group">
+                <label for="f2f">Agree to Face to Face class? (Yes, No)</label>
+                <input type="text" name="entry.1788298564" onkeydown="return /[a-z, ]/i.test(event.key)"
+                onblur="if (this.value == '') {this.value = '';}"
+                onfocus="if (this.value == '') {this.value = '';}" style="text-transform:uppercase" id="vacx" class="formControl" placeholder="Enter Yes or No" required>
+            </div>
+
+            <!-- end of F2F Question button -->
+
+            
+            <div class="form-group">
+                <button type="submit" id="submit" class="btn">Submit Form</button>
+                
+            </div>
+        </form>
+    </div>
+</body>
+</html>
