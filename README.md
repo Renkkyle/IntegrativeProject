@@ -1,3 +1,6 @@
+<!-- This is an initialization in github - this is not needed for the website -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
